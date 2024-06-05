@@ -7,8 +7,8 @@ const port = 3000;
 const pool = new Pool({
     user: 'postgres',
     host: 'localhost',
-    database: 'dbapi',
-    password: '12345',
+    database: 'db-api',
+    password: '12345678',
     port: 5432,
 });
 app.use(express.json());
